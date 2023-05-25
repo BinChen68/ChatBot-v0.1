@@ -3,13 +3,13 @@ import requests
 
 
 # set Bing Web Search API key
-subscription_key = "fe65971cbb184f32a5b4834ad5fa4150"
+subscription_key = ""
 assert subscription_key
 search_url = "https://api.bing.microsoft.com/v7.0/search"
 
 
 # set OpenAI API key
-openai.api_key = "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"
+openai.api_key = ""
 MODEL = "gpt-3.5-turbo"
 
 # set the number of resources returned by Bing Web Search API
